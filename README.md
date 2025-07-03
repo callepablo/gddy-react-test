@@ -26,14 +26,14 @@ This is a small React + TypeScript application that fetches and displays public 
 - **Vitest** for unit testing
 - **React Testing Library**
 - **CSS Modules** for styling
-- Optional: React Router v6
+- **React Router** 
 
 ---
 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/godaddy-repos-app.git
+git clone https://github.com/callepablo/godaddy-repos-app.git
 cd godaddy-repos-app
 npm install
 ```
