@@ -1,0 +1,63 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .title {
+    color: #555;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .linkButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #00C7C7;
+    color: #444;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+  }
+
+  .linkButton:hover {
+    color: white;
+  }
+  
+  .stats {
+    display: flex;
+    color:#444;
+    gap: 2rem;
+    justify-self: center;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+
+  .textLang {
+    color: #444;
+  }
+  
+  .languages {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .languageItem {
+    background-color: #444;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }

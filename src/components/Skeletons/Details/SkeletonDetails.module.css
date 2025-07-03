@@ -1,0 +1,70 @@
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .skeleton {
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  
+  .title {
+    height: 2rem;
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    height: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    height: 2rem;
+    width: 160px;
+    margin-bottom: 2rem;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .statItem {
+    height: 1rem;
+    width: 60px;
+  }
+  
+  .languages {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .languageItem {
+    height: 1rem;
+    width: 80px;
+    border-radius: 4px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0.4;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
