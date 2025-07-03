@@ -33,8 +33,8 @@ This is a small React + TypeScript application that fetches and displays public 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/callepablo/godaddy-repos-app.git
-cd godaddy-repos-app
+git clone https://github.com/callepablo/gddy-react-test.git
+cd gddy-react-test
 npm install
 ```
 
